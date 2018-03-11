@@ -1,4 +1,4 @@
-#!python3.6
+#!C:\Users\ReaperGunner\AppData\Local\Programs\Python\Python36-32\python.exe
 import time
 import cgi
 
@@ -17,7 +17,7 @@ html5bottom='''
 </html>
 '''
 
-print (html5top.format(fname='sblogon.py', title='CGI',header='Logon'))
+print (html5top.format(fname='sblogon.py', title='CGI',header='Simple Billing App'))
 
 form = cgi.FieldStorage()
 
@@ -26,8 +26,8 @@ if 'name' in form:
         print ("<h1>Welcome, %s!</h1>" % form[ 'name' ].value)
         print('''
         <p /><ul>
-                <li><a href=localhost\cgi-bin\sbsort.py>Customer Table</a></li>
-                <li><a href=localhost\cgi-bin\sbsearch.py>Search Customer</a></li>
+                <li><a href=sbsort.py>Customer Table</a></li><br />
+                <li><a href=sbsearch.py>Search Customer</a></li>
             </ul>
         <p />
         ''')

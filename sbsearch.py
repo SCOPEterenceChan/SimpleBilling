@@ -1,4 +1,4 @@
-#!/Users/scope/Library/Frameworks/Python.framework/Versions/3.6/bin/python3.6/python.exe
+#!C:\Users\ReaperGunner\AppData\Local\Programs\Python\Python36-32\python.exe
 
 import time
 import cgi
