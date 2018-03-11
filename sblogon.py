@@ -1,4 +1,4 @@
-#!python
+#!python3.6
 import time
 import cgi
 
