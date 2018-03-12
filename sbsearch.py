@@ -1,4 +1,4 @@
-#!C:\Users\ReaperGunner\AppData\Local\Programs\Python\Python36-32\python.exe
+#!C:\Users\dcywchan\AppData\Local\Programs\Python\Python36-32\python.exe
 
 import time
 import cgi
